@@ -1,4 +1,4 @@
-export const GIRAFFE_BANNER = String.raw`
+export const ELECTRA_GIRAFFE_BANNER = String.raw`
                                               2048                   
                                               :--:
                                              :-@==+-:
