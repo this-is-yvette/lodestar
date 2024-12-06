@@ -157,12 +157,12 @@ export async function verifyBlocksInEpoch(
             this.logger.info(DENEB_BLOWFISH_BANNER);
             this.logger.info("Activating blobs", {epoch: this.config.DENEB_FORK_EPOCH});
             break;
-          
+
           case ForkName.electra:
             this.logger.info(GIRAFFE_BANNER);
             this.logger.info("Activating maxEB", {epoch: this.config.ELECTRA_FORK_EPOCH});
             break;
-            
+
           default:
         }
       }
